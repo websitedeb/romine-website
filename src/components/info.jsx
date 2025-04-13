@@ -48,7 +48,7 @@ export default function Info() {
             Free
           </CardTitle>
           <CardDescription className="font-medium">
-            Romine doesn't cost a dime!
+            Romine doesn't cost a dime! You can use Romine for $0.00!
           </CardDescription>
         </Cards>
       </div>

@@ -14,12 +14,12 @@ export function Gradient() {
             </p>
             <div className="flex gap-4 mt-6 fade-in fade-in-delay-8s">
                 <Link href="/install" passHref>
-                    <button className="px-6 py-3 border-2 border-[#f08721] text-[#f08721] font-bold text-lg rounded-lg hover:border-[#e4984c] hover:text-[#e4984c] hover:bg-black transition">
+                    <button className="px-6 py-3 border-2 border-[#f08721] text-[#f08721] font-bold text-lg rounded-lg hover:border-[#e4984c] hover:text-[#e4984c] hover:bg-black transition cursor-pointer">
                         Install
                     </button>
                 </Link>
                 <Link href="/learn" passHref>
-                    <button className="px-6 py-3 border-2 border-white text-white font-bold text-lg rounded-lg bg-transparent hover:bg-white transition hover:text-black">
+                    <button className="px-6 py-3 border-2 border-white text-white font-bold text-lg rounded-lg bg-transparent hover:bg-white transition hover:text-black cursor-pointer">
                         Learn
                     </button>
                 </Link>

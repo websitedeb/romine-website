@@ -132,6 +132,10 @@ body{
   font-family: "Montserrat", monospace;
 }
 
+.background {
+  background-image: url('../../public/1.png');
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

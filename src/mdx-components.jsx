@@ -1,7 +1,7 @@
 export function useMDXComponents(components) {
   return {
     h1: ({ children }) => (
-      <h1 className="text-[#f08721] font-bold text-5xl text-center border-b-2 border-black pb-3 arimo">
+      <h1 className="text-[#f08721] font-bold text-5xl text-center border-b-2 border-gray-900 pb-3 arimo">
         {children}
       </h1>
     ),

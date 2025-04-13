@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen flex items-center justify-center bg-black px-4">
+      <div className="min-h-screen flex items-center justify-center bg-black px-4 background">
         <Card className="bg-[#1c1c1c] border-2 border-[#f08721] text-white p-8 rounded-3xl w-[90%] max-w-md text-center">
           <div className="flex justify-center mb-4 text-[#f08721]">
             <AlertTriangleIcon size={48} />

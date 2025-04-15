@@ -51,7 +51,16 @@ export function useMDXComponents(components) {
         {children}
       </p>
     ),
-
+    code: ({ children }) => (
+      <code className="block bg-[#1c1c1c] text-[#f08721] font-mono text-sm p-4 rounded-lg mt-2 mb-4 whitespace-pre-wrap border border-[#f08721] shadow-md max-w-96">
+        <span className="text-[#7fff00]">$</span> {children}
+      </code>
+    ),
+    Code: ({ children }) => (
+      <code className="block bg-[#1c1c1c] text-[#f08721] font-mono text-sm p-4 rounded-lg mt-2 mb-4 whitespace-pre-wrap border border-[#f08721] shadow-md">
+        {children}
+      </code>
+    ),
     ...components,
   };
 }

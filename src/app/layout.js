@@ -5,11 +5,27 @@ export const metadata = {
   description: "Best Microsoft Points Generator",
   icons: {
     icon: [
-      { media: '(prefers-color-scheme: light)', url: '/icon.ico', href: '/icon.ico' },
-      { media: '(prefers-color-scheme: dark)', url: '/icon.ico', href: '/icon.ico' },
+      { media: '(prefers-color-scheme: light)', url: '/icon.ico' },
+      { media: '(prefers-color-scheme: dark)', url: '/icon.ico' },
     ],
-  }
+  },
+  openGraph: {
+    title: "Romine",
+    description: "Best Microsoft Points Generator",
+    url: "https://romine.pages.dev",
+    siteName: "Romine",
+    images: [
+      {
+        url: "https://romine.pages.dev/Romine.png",
+        width: 1200,
+        height: 630,
+        alt: "Romine Image",
+      },
+    ],
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (

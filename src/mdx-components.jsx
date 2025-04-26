@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function useMDXComponents(components) {
   return {
     h1: ({ children }) => (
@@ -60,6 +62,11 @@ export function useMDXComponents(components) {
       <code className="block bg-[#1c1c1c] text-[#f08721] font-mono text-sm p-4 rounded-lg mt-2 mb-4 whitespace-pre-wrap border border-[#f08721] shadow-md">
         {children}
       </code>
+    ),
+    a: ({children, href}) => (
+      <Link href={href} className="text-white underline hover:text-[#f08721] transition">
+        <i class="bi bi-link-45deg"></i>{children}
+      </Link>
     ),
     ...components,
   };

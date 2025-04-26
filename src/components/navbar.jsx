@@ -8,14 +8,13 @@ import {
 import Link from "next/link";
 import { BookIcon, DownloadIcon, HomeIcon, Megaphone, YoutubeIcon } from "lucide-react";
 import Image from "next/image";
-import Pocket from "./pocket";
 
 export default function Navbar() {
     return (
         <nav className="p-4 bg-[rgba(0,0,0,0.88)] text-white flex items-center justify-between shadow-lg sticky top-0 z-50 backdrop-blur-sm">
             <NavigationMenu className="flex">
                 <div className="flex items-center gap-3">
-                    <Image src="/icon.ico" alt="Platform Icon" width={40} height={40} className="rounded-md" />
+                    <Image src="/iicon.png" alt="Platform Icon" width={50} height={50} className="rounded-md" />
                     <p className="text-xs font-semibold text-gray-500">v2.0</p>
                 </div>
                 &nbsp;
